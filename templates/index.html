@@ -81,9 +81,7 @@
             <hr>
             <div class="short-link d-flex align-items-center justify-content-between bg-white p-2 border rounded">
                 <!-- UPGRADE 2: Added 'url' filter to prevent template escape vulnerabilities -->
-                <a href="{{ short_url | urlencode }}" id="shortUrlText" target="_blank" class="text-decoration-none text-success font-weight-bold">
-                    {{ short_url }}
-                </a>
+                <a href="{{ short_url }}" id="shortUrlText" target="_blank" class="text-decoration-none text-success font-weight-bold">{{ short_url }}</a>
                 
                 <!-- UPGRADE 3: Instant JavaScript Copy Button -->
                 <button onclick="copyToClipboard()" class="btn btn-sm btn-outline-success ms-2" id="copyBtn">
