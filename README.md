@@ -19,7 +19,7 @@ LinkSpace is a lightweight, efficient, and user-friendly **URL Shortener Applica
 
 The project uses a clean **3-Tier Monolithic Architecture** following the Model-View-Controller design workflow. It is fully containerized and hosted securely in the cloud.
 
-![System Architecture Diagram](assets/architecture.png)
+![System Architecture Diagram](assets/Architecture.png)
 
 ---
 
